@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"type":"file","file":"Swift/SwiftUI/Swift UI.md","id":"00cf8ee204928bdc","x":918,"y":-748,"width":400,"height":400},
+		{"type":"file","file":"Swift/Algoritms/Algoritms.md","id":"18a9dc5c38a7a702","x":1318,"y":-748,"width":400,"height":400},
+		{"type":"file","file":"Swift/UIKit/UIkit.md","id":"645f8be4d964804e","x":518,"y":-748,"width":400,"height":400},
+		{"type":"file","file":"Swift/Api/Api.md","id":"35f133b598b8d14a","x":-300,"y":-304,"width":400,"height":400},
+		{"type":"file","file":"Swift/Core Data/Core Data.md","id":"fb891405fcc833fe","x":-300,"y":185,"width":400,"height":400},
+		{"type":"file","file":"Swift/Network/Network.md","id":"7f42216fcff2f406","x":119,"y":730,"width":400,"height":400},
+		{"type":"file","file":"Swift/S.O.L.I.D/S.O.L.I.D.md","id":"99e1be54bcf0604d","x":1700,"y":-304,"width":400,"height":400},
+		{"type":"file","file":"Swift/Core Animation/Core Animation.md","id":"017aaa38923df33c","x":1700,"y":185,"width":400,"height":400},
+		{"type":"file","file":"Swift/Swift Core/Swift Core.md","id":"3897ae0fe5b2180d","x":118,"y":-748,"width":400,"height":400},
+		{"type":"file","file":"Swift/Testing/Testing.md","id":"f9a4a3d4a5b3277d","x":919,"y":730,"width":400,"height":400},
+		{"type":"file","file":"Swift/Git/Git.md","id":"2b1c2a232d5ed9c6","x":1319,"y":730,"width":400,"height":400},
+		{"type":"file","file":"Swift/Sketch/Sketch.md","id":"028c8727d70f104f","x":519,"y":730,"width":400,"height":400},
+		{"type":"file","file":"Swift/swift.png","id":"4b6afb7a3dbbc906","x":719,"y":-3,"width":351,"height":377}
+	],
+	"edges":[
+		{"id":"61613b295cd47ead","fromNode":"4b6afb7a3dbbc906","fromSide":"top","toNode":"645f8be4d964804e","toSide":"bottom"},
+		{"id":"ace5e36e6e8194f3","fromNode":"4b6afb7a3dbbc906","fromSide":"top","toNode":"00cf8ee204928bdc","toSide":"bottom"},
+		{"id":"6b6842f51b5ce525","fromNode":"4b6afb7a3dbbc906","fromSide":"top","toNode":"18a9dc5c38a7a702","toSide":"bottom"},
+		{"id":"f7d7765b2ab349b6","fromNode":"4b6afb7a3dbbc906","fromSide":"top","toNode":"3897ae0fe5b2180d","toSide":"bottom"},
+		{"id":"c2af41b166aeeba2","fromNode":"4b6afb7a3dbbc906","fromSide":"left","toNode":"35f133b598b8d14a","toSide":"right"},
+		{"id":"41f01b58d543b37e","fromNode":"4b6afb7a3dbbc906","fromSide":"right","toNode":"99e1be54bcf0604d","toSide":"left"},
+		{"id":"4ad1c8f02c0363e0","fromNode":"4b6afb7a3dbbc906","fromSide":"bottom","toNode":"7f42216fcff2f406","toSide":"top"},
+		{"id":"43d96ec83b533142","fromNode":"4b6afb7a3dbbc906","fromSide":"bottom","toNode":"028c8727d70f104f","toSide":"top"},
+		{"id":"b271f0393d520f4c","fromNode":"4b6afb7a3dbbc906","fromSide":"bottom","toNode":"f9a4a3d4a5b3277d","toSide":"top"},
+		{"id":"ed3ad422a6bd195f","fromNode":"4b6afb7a3dbbc906","fromSide":"bottom","toNode":"2b1c2a232d5ed9c6","toSide":"top"},
+		{"id":"180454140957208d","fromNode":"4b6afb7a3dbbc906","fromSide":"left","toNode":"fb891405fcc833fe","toSide":"right"},
+		{"id":"81312a48576a9faf","fromNode":"4b6afb7a3dbbc906","fromSide":"right","toNode":"017aaa38923df33c","toSide":"left"}
+	]
+}

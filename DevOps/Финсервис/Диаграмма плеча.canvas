@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"c77fdaffac617f78","x":-85,"y":-36,"width":250,"height":60,"type":"text","text":"Клиент \n"},
+		{"id":"1fb16c975a67b651","x":-85,"y":-225,"width":250,"height":60,"type":"text","text":"VISA -> газ \nUPAY"},
+		{"id":"659cd9787f799699","x":-114,"y":128,"width":308,"height":94,"type":"text","text":"PIP : payment Merchants\nот Visa\nкуда UPAY MARKETPLACE\n"},
+		{"id":"27b37d92a9335ccb","x":-85,"y":397,"width":250,"height":60,"type":"text","text":"Upay, VISA,Merchants"},
+		{"id":"dfa9fb7708bdef1e","x":656,"y":290,"width":250,"height":60,"type":"text","text":"Ravnaq"},
+		{"id":"f8c8c0cd60193d9c","x":591,"y":397,"width":250,"height":60,"type":"text","text":"OCTO"},
+		{"id":"95b54a0074189485","x":591,"y":162,"width":250,"height":60,"type":"text","text":"TSYS"},
+		{"id":"871c206329a2bff2","x":591,"y":-36,"width":250,"height":60,"type":"text","text":"PROC, PIP"},
+		{"id":"ed600e30ead51f14","x":231,"y":-6,"width":250,"height":60,"type":"text","text":"PURCHASE\nT60\n"},
+		{"id":"90660726f9812dad","x":284,"y":320,"width":250,"height":60,"type":"text","text":"Marketplace \nT73"},
+		{"id":"2a65425a181a4713","x":284,"y":128,"width":250,"height":121,"type":"text","text":"FOT \n- MERCHANT_ID\n- TERMINAL_ID\n- RRN"}
+	],
+	"edges":[
+		{"id":"c2a5b6bbfb6c5503","fromNode":"c77fdaffac617f78","fromSide":"top","toNode":"1fb16c975a67b651","toSide":"bottom"},
+		{"id":"f796688fa64f8627","fromNode":"c77fdaffac617f78","fromSide":"bottom","toNode":"659cd9787f799699","toSide":"top"},
+		{"id":"4b2e5f91a6e1c790","fromNode":"659cd9787f799699","fromSide":"bottom","toNode":"27b37d92a9335ccb","toSide":"top"},
+		{"id":"586247fc191e6326","fromNode":"27b37d92a9335ccb","fromSide":"right","toNode":"f8c8c0cd60193d9c","toSide":"left"},
+		{"id":"f1de8879e07c666c","fromNode":"f8c8c0cd60193d9c","fromSide":"top","toNode":"95b54a0074189485","toSide":"bottom"},
+		{"id":"e192e0a0df1545b4","fromNode":"95b54a0074189485","fromSide":"top","toNode":"871c206329a2bff2","toSide":"bottom"},
+		{"id":"224e199f795b2719","fromNode":"659cd9787f799699","fromSide":"right","toNode":"90660726f9812dad","toSide":"left"},
+		{"id":"ee651ce9099cd2a8","fromNode":"871c206329a2bff2","fromSide":"left","toNode":"ed600e30ead51f14","toSide":"right"},
+		{"id":"551ecb5743efd652","fromNode":"90660726f9812dad","fromSide":"top","toNode":"2a65425a181a4713","toSide":"bottom"},
+		{"id":"6938e8efffcf810d","fromNode":"ed600e30ead51f14","fromSide":"bottom","toNode":"2a65425a181a4713","toSide":"top"}
+	]
+}
