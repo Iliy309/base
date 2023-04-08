@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "62ee46ea6f95aec1",
+        "id": "60993436118ff955",
         "type": "tabs",
         "children": [
           {
-            "id": "b5c37031060829e3",
+            "id": "b766492a1f9dde19",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hexlet/00Математическая логика.md",
+                "file": "Хаосконтроль.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.5
+    "width": 200
   },
   "right": {
     "id": "6608df267127c299",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hexlet/00Математическая логика.md",
+                "file": "Хаосконтроль.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hexlet/00Математическая логика.md",
+                "file": "Хаосконтроль.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hexlet/00Математическая логика.md"
+                "file": "Хаосконтроль.md"
               }
             }
           },
@@ -136,13 +136,21 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "281b154bfa14f23b",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 292.5,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -152,51 +160,52 @@
       "graph:Граф": false,
       "daily-notes:Сегодняшняя заметка": false,
       "templates:Вставить шаблон": false,
-      "command-palette:Открыть палитру команд": false
+      "command-palette:Открыть палитру команд": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b5c37031060829e3",
+  "active": "b766492a1f9dde19",
   "lastOpenFiles": [
-    "Без названия.txt.md",
+    "DevOps/Git Command.md",
+    "DevOps/K8s command.md",
+    "DevOps/Финсервис/00FinService.md",
+    "DevOps/Финсервис/telegram-cloud-photo-size-2-5291885890836219436-x.jpg",
+    "DevOps/Финсервис/План на ИС.md",
+    "Хаосконтроль.md",
+    "DevOps/Финсервис/SQL заметки.md",
+    "DevOps/Kubernetes.md",
+    "DevOps/Финсервис/Диаграмма плеча.canvas",
+    "2023-03-30.md",
+    "Hexlet/Java/Java Коллекции.md",
+    "Hexlet/hex/Pasted image 20230330105343.png",
+    "Hexlet/hex/Pasted image 20230330104140.png",
+    "Hexlet/hex/Pasted image 20230330101631.png",
+    "Hexlet/Java/Java ООП.md",
+    "Hexlet/hex/Pasted image 20230330095558.png",
+    "photo_2023-03-16 11.56.05.jpeg",
+    "DevOps/Финсервис/01Структура.canvas",
+    "NewFintechMonitoringV2.md",
+    "Hexlet/Ansible Основы автоматизации.md",
+    "Hexlet/Java/Настройка окружения java.md",
+    "Hexlet/Java/Java core.md",
+    "Hexlet/SQL.md",
+    "Hexlet/Java/Java  Массивы.md",
     "Hexlet/00Математическая логика.md",
+    "DevOps/Doker command.md",
+    "Hexlet/Java",
+    "Без названия.txt.md",
     "Hexlet/hex/правила постраения 2.png",
     "Hexlet/00Регулярные выражения.md",
     "Hexlet/00Комбинаторика.md",
     "Hexlet/hex/Правила постраения набора.png",
     "Hexlet/hex/ДНФ.png",
     "Hexlet/hex/ПКНФ2.png",
-    "Hexlet/hex/ПКНФ.png",
-    "Hexlet/hex/КНФ.png",
-    "Hexlet/hex/КНФ2.png",
     "Hexlet/СI Непрерывная интеграция.md",
-    "Hexlet/hex/ПДНФ.png",
-    "Hexlet/hex/modus pones 2.png",
-    "Hexlet/hex/modus pones 3.png",
     "Hexlet/hex",
     "Hexlet/Алгоритмы и структуры данных.md",
     "Hexlet/DevOps управление инфроструктурой.md",
-    "Hexlet/Ansible Основы автоматизации.md",
     "Hexlet/Продакшн и деплой.md",
-    "Hexlet/00Теория множеств.md",
-    "Hexlet/00Теория графов.md",
-    "DevOps/Финсервис/План на ИС.md",
-    "DevOps/Финсервис/00FinService.md",
-    "Hexlet/SQL.md",
-    "DevOps/Финсервис/01Структура.canvas",
-    "Hexlet/HTTP.md",
-    "Hexlet/HTTP API.md",
-    "DevOps/Финсервис/SQL заметки.md",
     "Без названия.canvas",
-    "Hexlet/Docker.md",
-    "DevOps/Сеть теория.md",
-    "DevOps/Doker command.md",
-    "DevOps/Финсервис/Диаграмма плеча.canvas",
-    "Swift/Xcode/Xcode.md",
-    "Swift/Sketch/Sketch.md",
-    "Swift/Network/Network.md",
-    "Swift/Network/Almofire.md",
-    "Swift/Git/Git.md",
-    "Swift/Design Paterns/Design Patterns.md",
     "Swift/Структура.canvas",
     "Hexlet"
   ]

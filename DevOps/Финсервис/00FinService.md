@@ -5,7 +5,6 @@
 
  [Диаграмма плеча склейки в FOT](obsidian://open?vault=Base&file=DevOps%2F%D0%A4%D0%B8%D0%BD%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%2F%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0%20%D0%BF%D0%BB%D0%B5%D1%87%D0%B0.canvas)
 
- 
 
 ## Product 
 
@@ -126,7 +125,9 @@ payload ->> 'cardseno' = '1231313' синтаксис разбора json в ora
 |15673| / |Rabbit MQ Management Interface (HTTP)|
 | 5672|/|Rabbit MQ AMQP (TCP)|
 
-
+![[photo_2023-03-16 11.56.05.jpeg]]
+![[telegram-cloud-photo-size-2-5291885890836219436-x.jpg]]
+team="finservices"
 ```SQL для Prime
 
 select POSTDATE,  
@@ -408,4 +409,98 @@ BPS через .searchBindings проверяет создание привяз�
 
 APS через getBindingAutoTopup проверяет создание автосписания 
 
+
 ```
+
+```JSON
+"body":{"providerTransactionId":"812845","providerTransactionDate":1678650470,"merchantType":"5999","accrualAmount":5000000,"issuerFee":0,"inputAmount":5000000,"merchantLocation":"Toshkent ","cardAcceptorLocation":"Toshkent ","posDataCode":"8120","externalAuthorizationId":"14216482","inputCurrency":"UZS","isForced":false,"authorizationType":"0","authorizationTool":{"authorizationClientToolId":"39726","authorizationClientToolType":"CARD_SERNO","maskedCardNumber":"****"},"acquirerId":"404632","authorizationSerno":"14216482","terminalId":"XXX","accrualCurrency":"UZS","conversionRate":0.0,"merchantName":"UPay VISA Merchant ","merchantId":"E2022079 ","cardAcceptorName":"UPay VISA Merchant ","retrievalReference":"307119812845"}}
+```
+
+
+# Алерты
+
+- [x] Т51_86  x2 -   night topup Uzcard
+- [x] Т51_87   x2  - night topup Humo
+- [ ] Т51_93
+- [ ] Т51_94
+- [x] T51_90
+- [x] T51_91
+- [ ] T50_3 c2c uzcardHumo
+- [x] T50_5 c2c uzcardUzcard 
+- [x] T50_6 c2c HumoHumo
+- [x] T50_7 c2c HumoUzcard
+- [x] T21_202  humansUzcard x 2 - Night
+- [x] T21_203 humansHumo x 2 Night 
+- [ ] T21_300 humans to mir depracated
+- [x] T71_5 mpp click uzcard  x2 - in_progress
+- [x] T71_6 mpp click  humo x 2 - in_progress
+- [x] T71_7 mpp upay uzcard  x2 - night
+- [x] T71_8 mpp upay humo x2  -night
+- [x] T73_1 mpp  upay humans 
+- [ ] T51_88 
+- [ ] T51_89
+- [x] T51_95 topup  upay site  Ucard/Humo  x2  -night
+- [x] *T66_800 -> payload*переписано как Payload  на denied + finished 3 -in_progress 
+- [x] *T66_801 -> payload*переписано как Payload  на denied + finished 
+- [x] T66_802 upay  topup mApp x3  - auth_declined / night
+- [ ] T60_1000 humans purchase 
+- [x] Т63_1002 humans withdrawl. x2 -night
+- [x] T62_1003 humans p2p. x2 - night 
+- [ ] T90_1 humans refound 
+- [x] T57_001 RU-Uz  pan 
+- [x] T57_002 ru-uz phone 
+- [ ] T2_1 c2c КБ
+- [ ] T81_1 оплата КБ 
+
+
+
+- [ ] NO_FINISHED_UPAY_TOPUPS_UZCARD
+- [ ] NO_FINISHED_UPAY_TOPUPS_UZCARD NIght
+- [ ] NO_FINISHED_UPAY_TOPUPS_HUMO
+- [ ] NO_FINISHED_UPAY_TOPUPS_HUMO NIGHT
+- [ ] NO_FINISHED_H2M_NIGHT
+- [ ] NO_FINISHED_H2M
+- [ ] UZCARD_PAYMENTPROVIDER_INPROGRESS_CLICK
+- [ ] HUMO_PAYMENTPROVIDER_INPROGRESS_CLICK
+- [ ] DENIED_PAYLOAD_CASH_TOPUPS
+- [ ] DENIED_CASH_UPAY_TOPUPS
+- [ ] NO_FINISHED_PAYLOAD_CASH_TOPUPS
+- [ ] NO_FINISHED_UPAY_CASH_TOPUPS
+- [ ] NO_FINISHED_UPAY_CASH_TOPUPS Night
+- [x] *TOO_MUCH_PAYLOAD_TOPUPS_IN_PROGRESS ( payload_alarm > 1       ->.        fin_ops_new...)*
+- [ ] NO_FINISHED_UZCARD_->_UZCARD_TRANSFERS
+- [ ] NO_FINISHED_HUMO_->_UZCARD_TRANSFERS
+- [ ] UPAY_NO_FINISHED_HUMO_->_HUMO_TRANSFERS
+- [x] NO_FINISHED_HUMO_PAYMENTS_(CLICK)
+- [ ] NO_FINISHED_UZCARD_PAYMENTS_(CLICK)
+- [ ] NO_FINISHED_HUMO_PAYMENTS_(UPAY)
+- [ ] NO_FINISHED_HUMO_PAYMENTS_(UPAY) Night
+- [ ] NO_FINISHED_UZCARD_PAYMENTS_(UPAY)
+- [ ] NO_FINISHED_UZCARD_PAYMENTS_(UPAY) Night
+- [x] NO_FINISHED_AUTOTOPUPS_UZCARD
+- [ ] NO_FINISHED_AUTOTOPUPS_HUMO
+- [ ] UPAY_NO_FINISHED_HUMANS-TO-UZCARD
+- [ ] UPAY_NO_FINISHED_HUMANS-TO-UZCARD Night
+- [ ] UPAY_NO_FINISHED_HUMANS-TO-HUMO
+- [ ] UPAY_NO_FINISHED_HUMANS-TO-HUMO Night 
+- [x] NO_FINISHED_RU-UZ_TOPUPS_PAN
+- [x] NO_FINISHED_RU-UZ_TOPUPS_PHONE
+- [ ] NO_FINISHED_UPAY_ACQUIRING_TOPUPS
+- [ ] NO_FINISHED_UPAY_ACQUIRING_TOPUPS Night
+- [x] NO ATM WITHDRAWAL
+- [x] NO P2P
+
+NO_FINISHED_HUMANS-TO-MIR_TRANSFERS не сходился 
+
+
+
+- [ ] TOO_MUCH_PAYLOAD_TOPUPS_IN_PROGRESS_NewTest увеличить пороги срабатывания с 0  до N. 5
+- [ ] `UPAY_NO_FINISHED_HUMANS-TO-HUMO_NewTest` + NIGHT поменять type на spec_id
+- [ ] `UPAY_NO_FINISHED_HUMANS-TO-UZCARD_NewTest`  + NIGHT поменять type  на spec_id
+
+
+Предложения по алертам
+- ru uz phone/pan 120min поставь плз
+- хумо узкард клик 120
+  
+  

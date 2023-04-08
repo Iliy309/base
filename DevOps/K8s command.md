@@ -192,4 +192,5 @@ kubectl describe -n prod-cars po | grep 'Last State:     Terminated' -C5???
 
 kubectl -n prod-pip describe po | grep 'Last State:     Terminated' -C5
 
+kubectl scale deployment query-exporter --replicas 0 -n dev2-pip
 ```
