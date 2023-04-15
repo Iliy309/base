@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps/Финсервис/00FinService.md",
+                "file": "DevOps/Git Command.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevOps/Финсервис/00FinService.md",
+                "file": "DevOps/Git Command.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevOps/Финсервис/00FinService.md",
+                "file": "DevOps/Git Command.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevOps/Финсервис/00FinService.md"
+                "file": "DevOps/Git Command.md"
               }
             }
           },
@@ -179,10 +179,10 @@
   },
   "active": "ff2b85c1df2c29ff",
   "lastOpenFiles": [
+    "DevOps/Финсервис/00FinService.md",
     "DevOps/K8s command.md",
     "DevOps/Git Command.md",
     "DevOps/Финсервис/Диаграмма плеча.canvas",
-    "DevOps/Финсервис/00FinService.md",
     "Python/Python Stepik.md",
     "DevOps/Финсервис/SQL заметки.md",
     "Хаосконтроль.md",
