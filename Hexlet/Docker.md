@@ -1,3 +1,5 @@
+![[Pasted image 20230411003921.png]]
+
 ```
 # nginx взят просто для примера
 docker run -it nginx bash

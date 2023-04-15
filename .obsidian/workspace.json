@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Хаосконтроль.md",
+                "file": "DevOps/Финсервис/00FinService.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ff2b85c1df2c29ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevOps/Финсервис/00FinService.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Хаосконтроль.md",
+                "file": "DevOps/Финсервис/00FinService.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Хаосконтроль.md",
+                "file": "DevOps/Финсервис/00FinService.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Хаосконтроль.md"
+                "file": "DevOps/Финсервис/00FinService.md"
               }
             }
           },
@@ -164,17 +177,24 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b766492a1f9dde19",
+  "active": "ff2b85c1df2c29ff",
   "lastOpenFiles": [
-    "DevOps/Git Command.md",
     "DevOps/K8s command.md",
-    "DevOps/Финсервис/00FinService.md",
-    "DevOps/Финсервис/telegram-cloud-photo-size-2-5291885890836219436-x.jpg",
-    "DevOps/Финсервис/План на ИС.md",
-    "Хаосконтроль.md",
-    "DevOps/Финсервис/SQL заметки.md",
-    "DevOps/Kubernetes.md",
+    "DevOps/Git Command.md",
     "DevOps/Финсервис/Диаграмма плеча.canvas",
+    "DevOps/Финсервис/00FinService.md",
+    "Python/Python Stepik.md",
+    "DevOps/Финсервис/SQL заметки.md",
+    "Хаосконтроль.md",
+    "Python/Python Core.md",
+    "Hexlet/Docker.md",
+    "Pasted image 20230411003921.png",
+    "DevOps/Kubernetes.md",
+    "DevOps/tcp -ip.png",
+    "DevOps/Сеть теория.md",
+    "DevOps/Финсервис/telegram-cloud-photo-size-2-5291885890836219436-x.jpg",
+    "Python",
+    "DevOps/Финсервис/План на ИС.md",
     "2023-03-30.md",
     "Hexlet/Java/Java Коллекции.md",
     "Hexlet/hex/Pasted image 20230330105343.png",
@@ -198,13 +218,7 @@
     "Hexlet/00Регулярные выражения.md",
     "Hexlet/00Комбинаторика.md",
     "Hexlet/hex/Правила постраения набора.png",
-    "Hexlet/hex/ДНФ.png",
-    "Hexlet/hex/ПКНФ2.png",
-    "Hexlet/СI Непрерывная интеграция.md",
     "Hexlet/hex",
-    "Hexlet/Алгоритмы и структуры данных.md",
-    "Hexlet/DevOps управление инфроструктурой.md",
-    "Hexlet/Продакшн и деплой.md",
     "Без названия.canvas",
     "Swift/Структура.canvas",
     "Hexlet"
